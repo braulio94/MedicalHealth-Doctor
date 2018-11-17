@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login">
@@ -161,7 +160,6 @@
         <View
             android:layout_width="100dp"
             android:layout_height="0.5dp"
-
             android:background="@android:color/darker_gray" />
 
     </LinearLayout>
@@ -177,10 +175,7 @@
         android:layout_marginBottom="24dp"
         android:padding="17.5dp"
         android:drawableStart="@mipmap/ic_google_icon"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="5dp"
-        android:drawableRight="10dp"
-        android:drawableBottom="5dp"
+
         android:text="Sign in with Google"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
